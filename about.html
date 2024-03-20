@@ -1,0 +1,78 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo_transparent .png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="votenow.html">VOTE NOW</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Us</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Voting in National Election by sitting in home</h1>     
+            <p>Welcome to VoteXpress, your premier destination for secure and convenient electronic voting in the national elections of India. At VotExpress, we are committed to revolutionizing the democratic process by providing voters with the opportunity to cast their votes from the comfort of their own homes. By leveraging the power of technology, we have developed a user-friendly platform that allows citizens to participate in the democratic process with ease.
+
+                Our platform ensures the highest standards of security and integrity, with each vote authenticated through Aadhaar verification and phone number verification. We understand the importance of transparency and accountability in elections, which is why we have implemented robust measures to safeguard the integrity of the voting process.
+                
+                At VotExpress, we believe in empowering every eligible citizen to exercise their right to vote, regardless of geographical barriers or physical limitations. With just a few clicks, voters can make their voices heard and contribute to shaping the future of our nation.
+                
+                Join us in our mission to make democracy more accessible and inclusive for all. Together, let's build a stronger and more vibrant democracy for generations to come.</p>
+            <a href="https://youtu.be/to324JIljf8?si=nu_JUXVbZR_6gUtS" class="hero-btn red-btn">EXPOLER NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <a href="" class="footer-link"><p> All right reserved by VoteXpress</p></a>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
